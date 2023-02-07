@@ -61,7 +61,7 @@ export default function Home() {
   };
 
   return (
-    <Container bg="brand.100 " maxW="450px" mt={12} >
+    <Container  maxW="450px" mt={12} >
       <Heading>Contact Me</Heading>
       {error && (
         <Text color="red.300" my={4} fontSize="xl">
